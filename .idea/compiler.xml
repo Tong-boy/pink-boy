@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ping-boy-business" />
+        <module name="pink-boy-gateway" />
+        <module name="pink-boy-common-core" />
+        <module name="pink-boy-config" />
+        <module name="pink-boy-common" />
+        <module name="pink-boy-auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ping-boy-model" target="8" />
+      <module name="pink-boy-utils" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
